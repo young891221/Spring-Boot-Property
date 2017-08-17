@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    hikari:
+      jdbc-url: jdbc:mysql://172.16.135.15:3306/autoconfiguration
+      driver-class-name: com.mysql.jdbc.Driver
+      username: mns
+      password: dltmxmdlsxjspt
+      auto-commit: false
+      maximum-pool-size: 10

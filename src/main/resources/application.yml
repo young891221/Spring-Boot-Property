@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:mysql://172.16.135.15:3306/autoconfiguration
+    username: mns
+    password: dltmxmdlsxjspt
+    driver-class-name: com.mysql.jdbc.Driver
+    hikari:
+      auto-commit: false
+      maximum-pool-size: 10
+
+
+fruit:
+  list:
+    - name: banana
+      color: yellow
+    - name: apple
+      color: red
+    - name: water melon
+      color: green
+
+property:
+  test:
+    name: property depth test
+propertyTest: test
+propertyTestList: a,b,c
